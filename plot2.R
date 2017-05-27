@@ -4,7 +4,7 @@ library(dplyr)
 library(lubridate)
 
 #read in entire dataset
-data1 <- read_csv2("Coursera/R Specialization/4) Exploratory Data Analysis/Week 1/exdata_data_household_power_consumption/household_power_consumption.txt")
+data1 <- read_csv2("C:/Users/Nese/Documents/Coursera/R Specialization/4) Exploratory Data Analysis/Week 1/exdata_data_household_power_consumption/household_power_consumption.txt")
 
 #subset the data to relevant dates
 data2 <- data1[data1$Date %in% c("1/2/2007", "2/2/2007"),]
